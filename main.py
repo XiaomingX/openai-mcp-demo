@@ -7,7 +7,7 @@ load_dotenv()
 
 MCP_SERVER_URL = "http://localhost:8000/mcp"
 
-agent = Agent(name="Assistant", instructions="You are a helpful assistant.")
+agent = Agent(name="Assistant", instructions="你是一个有帮助的助手")
 
 async def call_mock_tool():
     async with aiohttp.ClientSession() as session:
