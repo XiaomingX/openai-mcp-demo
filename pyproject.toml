@@ -1,0 +1,11 @@
+[project]
+name = "openai-mcp-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp",
+    "httpx[socks]>=0.28.1",
+    "openai-agents>=0.3.0",
+]
